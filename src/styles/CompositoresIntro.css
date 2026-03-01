@@ -1,0 +1,111 @@
+.container {
+  background-color: white;
+}
+
+.leitura-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.leitura-container h1 {
+  color: #7a7a7a;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.leitura-container h2 {
+  color: #6a5acd;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.leitura-container p {
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-size: 1.15rem;
+}
+
+.introducao-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6a5acd;
+  font-weight: bold;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-voltar {
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: bold;
+  border: 2px solid #4b0082;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.btn-voltar:hover {
+  background: #4b0082;
+  color: white;
+}
+
+.next-page {
+  display: inline-block;
+  color: white;
+  background-color: #4b0082;
+  padding: 18px 35px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.navigation-links {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.destaque-texto {
+  font-weight: bold;
+  color: #4b0082;
+}
+
+/* Título da série */
+.serie-header {
+  background: #f5f5f5;
+  border-left: 5px solid #2c3e50;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Botão próximo estudo */
+.btn-proximo {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 22px;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-proximo:hover {
+  background-color: #34495e;
+  transform: translateY(-2px);
+}
+
+/* Área dos botões */
+.navigation-links {
+  margin-top: 40px;
+}

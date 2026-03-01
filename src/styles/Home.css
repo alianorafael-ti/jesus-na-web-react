@@ -1,0 +1,238 @@
+.home {
+  padding: 20px;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* SEÇÕES */
+
+.secao {
+  margin-top: 50px;
+}
+
+.secao h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* VERSÍCULO */
+
+.versiculo {
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+.versiculo span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* FORMULÁRIO ANTIGO (PODE FICAR) */
+
+.formulario {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #1a252f;
+}
+
+/* ========================= */
+/* CONTATO NOVO */
+/* ========================= */
+
+.contato {
+  margin-top: 80px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.contato h2,
+.contato-texto {
+  color: black;
+}
+
+/* TEXTO */
+
+.contato-texto {
+  margin: 0 auto 30px auto;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* CAIXA */
+
+.contato-box {
+  max-width: 700px;
+  margin: 0 auto;
+  
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  
+  border-radius: 16px;
+}
+
+/* FORM */
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CAMPOS */
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 14px;
+  
+  border: none;
+  border-radius: 8px;
+  
+  background: #f1f1f1;
+  
+  font-size: 16px;
+}
+
+/* TEXTAREA */
+
+.contato-form textarea {
+  height: 140px;
+  resize: none;
+}
+
+/* BOTÕES */
+
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botoes button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* BOTÃO ENVIAR */
+
+.enviar {
+  background-color: #6a5acd;
+  color: white;
+}
+
+/* BOTÃO LIMPAR */
+
+.limpar {
+  background: #ddd;
+}
+
+/* HOVER */
+
+.botoes button:hover {
+  opacity: 0.9;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* TÍTULOS */
+  .secao h2 {
+    font-size: 22px;
+  }
+
+  /* CARDS */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* FORMULÁRIO */
+  .contato-box {
+    padding: 20px;
+  }
+
+  .botoes {
+    justify-content: center;
+  }
+
+}
+
+
