@@ -12,6 +12,7 @@ import Contato from "./pages/Contato.jsx";
 import Wesley from "./pages/Wesley.jsx";
 import Lutero from "./pages/Lutero";
 import Watts from "./pages/Watts";
+import Moravia from "./pages/Moravia";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/compositores/wesley" element={<Wesley />} />
           <Route path="/compositores/lutero" element={<Lutero />} />
           <Route path="/compositores/watts" element={<Watts />} />
+          <Route path="/historia/moravia" element={<Moravia />} />
         </Routes>
       </Layout>
     </Router>

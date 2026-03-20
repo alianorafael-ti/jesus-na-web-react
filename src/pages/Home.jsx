@@ -30,14 +30,54 @@ export default function Home() {
         <h2>Mensagens e Estudos</h2>
 
         <div className="cards">
-          <Card titulo="Série Compositores da Harpa Cristã"texto="Novas biografias quinzenais em ordem cronológica. Conheça as histórias por traz do louvores!"link="/compositores/intro"imagem={compositores}/>
-          <Card titulo="História da Igreja" texto="A história do cristianismo" link="/estudos" imaem={historia}/>
-          <Card titulo="Meditações" texto="Reflexões diárias" link="/meditacao" imagem={meditacao}/>
-          <Card titulo="Estudos Bíblicos" texto="Crescimento espiritual" link="/estudos" imagem={estudos}/>
-          <Card titulo="Apologética" texto="Defesa da fé cristã" link="/estudos" imagem={apologetica}/>
-          <Card titulo="Espírito Santo" texto="Estudos sobre o Espírito Santo" link="/estudos" imagem={espirito}/>
-          <Card titulo="Missões" texto="Ide por todo o mundo" link="/estudos" imagem={missoes}/>
-          <Card titulo="Quem Somos" texto="Conheça o projeto Jesus na Web" link="/quem-somos" imagem={aliano}/>
+          <Card 
+            titulo="Série Compositores da Harpa Cristã" 
+            texto="Novas biografias quinzenais em ordem cronológica. Conheça as histórias por traz do louvores!" 
+            link="/compositores/intro" 
+            imagem={compositores} 
+          />
+          <Card 
+            titulo="História da Igreja" 
+            texto="A história do cristianismo" 
+            link="/historia/moravia" 
+            imagem={historia} 
+          />
+          <Card 
+            titulo="Meditações" 
+            texto="Reflexões diárias" 
+            link="/meditacao" 
+            imagem={meditacao} 
+          />
+          <Card 
+            titulo="Estudos Bíblicos" 
+            texto="Crescimento espiritual" 
+            link="/estudos" 
+            imagem={estudos} 
+          />
+          <Card 
+            titulo="Apologética" 
+            texto="Defesa da fé cristã" 
+            link="/estudos" 
+            imagem={apologetica} 
+          />
+          <Card 
+            titulo="Espírito Santo" 
+            texto="Estudos sobre o Espírito Santo" 
+            link="/estudos" 
+            imagem={espirito} 
+          />
+          <Card 
+            titulo="Missões" 
+            texto="Ide por todo o mundo" 
+            link="/estudos" 
+            imagem={missoes} 
+          />
+          <Card 
+            titulo="Quem Somos" 
+            texto="Conheça o projeto Jesus na Web" 
+            link="/quem-somos" 
+            imagem={aliano} 
+          />
         </div>
       </section>
 
@@ -63,20 +103,9 @@ export default function Home() {
         <div className="contato-box">
           <form className="contato-form">
 
-            <input
-              type="text"
-              placeholder="Seu nome"
-            />
-
-            <input
-              type="email"
-              placeholder="Seu email"
-            />
-
-            <textarea
-              placeholder="Mensagem"
-              rows="5"
-            ></textarea>
+            <input type="text" placeholder="Seu nome" />
+            <input type="email" placeholder="Seu email" />
+            <textarea placeholder="Mensagem" rows="5"></textarea>
 
             <div className="botoes">
               <button type="submit">Enviar</button>
