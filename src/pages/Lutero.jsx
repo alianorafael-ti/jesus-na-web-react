@@ -16,8 +16,8 @@ export default function Lutero() {
           </div>
         </div>
 
-        <Link to="/" className="btn-voltar">
-          ← Home
+        <Link to="/compositores/intro" className="btn-voltar">
+              ← Introdução
         </Link>
       </div>
 
@@ -84,11 +84,12 @@ export default function Lutero() {
           </em>
         </p>
 
-        {/* BOTÕES */}
+        {/* BOTÕES DE NAVEGAÇÃO */}
         <div className="nav-links">
 
-          <Link to="/compositores/wesley" className="btn-acao">
-            ← Estudo anterior
+          {/* Agora o botão da esquerda volta para a Introdução */}
+          <Link to="/compositores/intro" className="btn-acao">
+            ← Voltar para Introdução
           </Link>
 
           <button
@@ -108,8 +109,9 @@ export default function Lutero() {
             🔗 Compartilhar
           </button>
 
+          {/* Agora o botão da direita manda para Isaac Watts */}
           <Link to="/compositores/watts" className="btn-acao proximo">
-            Próximo estudo →
+            Próximo: Isaac Watts →
           </Link>
 
         </div>
