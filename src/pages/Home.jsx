@@ -57,13 +57,13 @@ export default function Home() {
           <Card 
             titulo="Apologética" 
             texto="Defesa da fé cristã" 
-            link="/estudos" 
+            link="/apologetica"  
             imagem={apologetica} 
           />
           <Card 
             titulo="Espírito Santo" 
             texto="Estudos sobre o Espírito Santo" 
-            link="/estudos" 
+            link="/espirito"
             imagem={espirito} 
           />
           <Card 

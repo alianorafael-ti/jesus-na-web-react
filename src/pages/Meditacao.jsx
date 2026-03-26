@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom'
+import LayoutEstudo from "../components/LayoutEstudo";
+import "../styles/Estudos.css";
 
 function Meditacao() {
   return (
-    <div className="meditacao">
-      <h1>Ele Escolheu a Cruz</h1>
+    <LayoutEstudo titulo="Ele Escolheu a Cruz">
+
       <h2>A História da Paixão, Morte e Ressurreição de Jesus</h2>
 
       <section>
@@ -22,9 +23,7 @@ function Meditacao() {
           de um mundo inteiro.
         </p>
 
-        <p>
-          Jesus olha para o céu:
-        </p>
+        <p>Jesus olha para o céu:</p>
 
         <blockquote>
           “Pai… se possível, passa de mim este cálice.”
@@ -96,22 +95,12 @@ function Meditacao() {
         </p>
       </section>
 
-      <div className="acoes">
-        <Link to="/">← Voltar</Link>
-        <button onClick={() => navigator.share && navigator.share({
-          title: 'Ele Escolheu a Cruz',
-          text: 'Leia esta reflexão sobre a Paixão de Cristo',
-          url: window.location.href
-        })}>
-          🔗 Compartilhar
-        </button>
-      </div>
-
       <p className="nota">
         Texto de reflexão sobre a narrativa bíblica da Paixão de Cristo.
       </p>
-    </div>
-  )
+
+    </LayoutEstudo>
+  );
 }
 
-export default Meditacao
+export default Meditacao;

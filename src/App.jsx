@@ -13,6 +13,9 @@ import Wesley from "./pages/Wesley.jsx";
 import Lutero from "./pages/Lutero";
 import Watts from "./pages/Watts";
 import Moravia from "./pages/Moravia";
+import Apologetica from "./pages/Apologetica";
+import Espirito from "./pages/Espirito";
+
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
           <Route path="/compositores/lutero" element={<Lutero />} />
           <Route path="/compositores/watts" element={<Watts />} />
           <Route path="/historia/moravia" element={<Moravia />} />
+          <Route path="/apologetica" element={<Apologetica />} />
+          <Route path="/espirito" element={<Espirito />} />
+          
         </Routes>
       </Layout>
     </Router>

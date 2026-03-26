@@ -63,3 +63,35 @@ blockquote {
   color: gray;
   margin-top: 20px;
 }
+
+.pagina-estudo {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+  background: #ffffff;
+  font-family: "Georgia", serif;
+}
+
+.topo-estudo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.topo-estudo button {
+  background: #eee;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.titulo-estudo {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.conteudo-estudo {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
