@@ -69,7 +69,7 @@ export default function Home() {
           <Card 
             titulo="Missões" 
             texto="Ide por todo o mundo" 
-            link="/estudos" 
+            link="/missoes" 
             imagem={missoes} 
           />
           <Card 

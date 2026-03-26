@@ -1,13 +1,85 @@
+import React from "react";
+import LayoutEstudo from "../components/LayoutEstudo";
+import aliano from "../assets/aliano.png";
+
 function QuemSomos() {
   return (
-    <div>
-      <h1>Quem Somos</h1>
+    <LayoutEstudo titulo="Quem Somos e No Que Cremos">
+
+      <h2>Nossa Missão</h2>
       <p>
-        O Jesus na Web é um projeto que busca proclamar o Evangelho, 
-        oferecer estudos bíblicos e meditações diárias, alcançando pessoas em todo o mundo.
+        O projeto Jesus na Web nasceu do desejo de ensinar, exortar e discipular através da rede,
+        conforme o chamado de seguir e prosseguir em conhecer ao Senhor (Os. 6:3).
+        Somos dedicados à pregação fiel das Escrituras e à defesa da Sã Doutrina.
       </p>
-    </div>
-  )
+
+      <h2>Nossas Crenças Fundamentais</h2>
+      <p>
+        Abaixo estão os pilares da nossa fé, alinhados com a fé cristã histórica e reformada:
+      </p>
+
+      <ul>
+        <li>Cremos na Trindade: um só Deus subsistente em três Pessoas – Pai, Filho e Espírito Santo.</li>
+        <li>Cremos na Bíblia Sagrada como a inerrante e única regra de fé e prática.</li>
+        <li>Cremos na Divindade de Jesus Cristo, Seu nascimento virginal, Sua morte expiatória, Sua ressurreição corporal e Sua ascensão aos céus.</li>
+        <li>Cremos que a salvação é pela graça, mediante a fé em Jesus Cristo, e não por obras.</li>
+        <li>Cremos na Segunda Vinda de Cristo para julgar vivos e mortos e estabelecer Seu Reino.</li>
+      </ul>
+
+      <h2>Conheça o Autor: O Resgate de uma Vida</h2>
+
+      <img
+       src={aliano}
+       alt="Aliano Rafael"
+       className="autor-img"
+      />
+
+      <h3>Aliano Rafael</h3>
+
+      <p><strong>O Prólogo: Um Amor que Começa Antes do Tempo</strong></p>
+      <p>
+        Por muito tempo, acreditei que minha jornada começou na rebeldia da adolescência.
+        Contudo, em experiências recentes com o Senhor, fui levado a contemplar um tempo anterior,
+        onde a mão de Deus já estava operando em meu favor.
+      </p>
+
+      <p>
+        Fui adotado ainda bebê, o quarto de cinco filhos. O segredo da minha adoção, e o rumor de que a mulher que me gerou não apenas não me quis, mas tentou ceifar minha vida, gerou uma ferida que me consumiu. Embora não saiba o que é verdade ou mentira nesse rumor, sei de algo inegável: o Senhor já me guardava. 
+      </p>
+
+      <p>
+        “Porque eu bem sei os pensamentos que tenho a vosso respeito, diz o Senhor;
+        pensamentos de paz, e não de mal, para vos dar o fim que esperais.” (Jeremias 29:11)
+      </p>
+
+      <p><strong>A Rebeldia e a Escuridão do Mundo</strong></p>
+      <p>
+       Guardar este segredo por anos gerou uma profunda rebeldia. A raiva, especialmente contra meu pai, me impulsionou para fora de casa aos 18 anos. Em busca de uma falsa liberdade, morar sozinho revelou-se um abismo. O ciclo vicioso de empregos perdidos e fracasso logo se instalou. Para sustentar o vício em álcool, maconha e cocaína, escolhi o caminho da destruição, iniciando no tráfico. Minha vida se tornou um testemunho de queda, culminando em trabalhos na cozinha de restaurantes, o que apenas me aproximava mais do ambiente de festas e excessos.
+      </p>
+
+      <p><strong>O Cativeiro Espiritual e a Queda Total</strong></p>
+      <p>
+        Em uma dessas festas, fui introduzido ao Candomblé. Por curiosidade e cegueira espiritual, fiquei para assistir aos "trabalhos". Ali, o diabo começou a tecer suas teias, e passei a servir a demônios. Minha vida se tornou um completo fracasso: alcoólatra e viciado. O abismo se aprofundou quando comecei a usar crack. Perdi tudo: amigos, trabalho, casa. Tornei-me um morador de rua e, por fim, encontrai-me na Cracolândia em São Paulo. Foram 15 longos anos de sobrevivência, não de vida.</p> 
+        
+        <p>
+          “Sede sóbrios; vigiai; porque o diabo, vosso adversário, anda em derredor, bramando como leão, buscando a quem possa tragar.” (1 Pedro 5:8).
+          </p>
+      <p><strong>O Milagre da Restauração</strong></p>
+      <p>
+       Acometido pela tuberculose, prostrado e sozinho, clamei a Deus naquele momento de completa angústia. Deus ouviu. “Clamou este pobre, e o Senhor o ouviu; e o salvou de todas as suas angústias.” (Salmos 34:6). No dia 27 de dezembro de 2021, o milagre se manifestou quando uma enfermeira do CAPS me ofereceu tratamento, iniciando minha jornada de RECUPERAÇÃO.
+
+       Embora a tuberculose tenha deixado sequelas graves – hoje conto com apenas 27% de função pulmonar, e só não dependo de oxigênio por um milagre literal de Deus – muitas vezes, Ele permite a dificuldade em nossas vidas para nos forçar a olhar unicamente para Ele. “A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza.” (2 Coríntios 12:9).
+
+       Fui impedido de trabalhar, mas o Senhor abriu uma nova porta: o desenvolvimento web. Este projeto é o resultado dessa porta aberta. Eu o consagro inteiramente a Deus, a quem pertence toda a honra e toda a glória.
+      </p>
+
+      <h2>Nosso Propósito</h2>
+      <p>
+        Nosso propósito é simples e singular: Usar as habilidades que Deus me deu nesta nova jornada (desenvolvimento web) para cumprir o chamado de ensinar, exortar e discipular através da rede, levando a mensagem do evangelho a outros que, como eu, estão no vale da sombra da morte, para que o nome de Jesus Cristo seja glorificado!
+      </p>
+
+    </LayoutEstudo>
+  );
 }
 
-export default QuemSomos
+export default QuemSomos;

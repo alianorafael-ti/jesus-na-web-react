@@ -15,6 +15,7 @@ import Watts from "./pages/Watts";
 import Moravia from "./pages/Moravia";
 import Apologetica from "./pages/Apologetica";
 import Espirito from "./pages/Espirito";
+import Missoes from "./pages/Missoes";
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <Route path="/compositores/intro" element={<CompositoresIntro />} />
           <Route path="/meditacao" element={<Meditacao />} />
           <Route path="/estudos" element={<Estudos />} />
-          <Route path="/quemsomos" element={<QuemSomos />} />
+          <Route path="/quem-somos" element={<QuemSomos />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/compositores/wesley" element={<Wesley />} />
           <Route path="/compositores/lutero" element={<Lutero />} />
@@ -35,6 +36,7 @@ function App() {
           <Route path="/historia/moravia" element={<Moravia />} />
           <Route path="/apologetica" element={<Apologetica />} />
           <Route path="/espirito" element={<Espirito />} />
+           <Route path="/missoes" element={<Missoes />} />
           
         </Routes>
       </Layout>
