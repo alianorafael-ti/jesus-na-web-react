@@ -1,6 +1,7 @@
 import React from "react";
 import LayoutEstudo from "../components/LayoutEstudo";
 import aliano from "../assets/aliano.png";
+import { FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 function QuemSomos() {
   return (
@@ -26,15 +27,63 @@ function QuemSomos() {
         <li>Cremos na Segunda Vinda de Cristo para julgar vivos e mortos e estabelecer Seu Reino.</li>
       </ul>
 
-      <h2>Conheça o Autor: O Resgate de uma Vida</h2>
+  
+  <h2>Conheça o Autor: O Resgate de uma Vida</h2>
 
-      <img
-       src={aliano}
-       alt="Aliano Rafael"
-       className="autor-img"
-      />
+<div className="autor-container">
 
-      <h3>Aliano Rafael</h3>
+  <div className="autor-foto">
+    <img src={aliano} alt="Aliano Rafael" className="autor-img" />
+  </div>
+
+  <div className="autor-redes">
+
+    <h4>Conecte-se comigo</h4>
+
+    <a
+      href="https://www.instagram.com/alia.norafael/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaInstagram className="icone-rede" />
+      Instagram Pessoal
+    </a>
+
+    <a
+      href="https://www.instagram.com/jesus_naweb/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaInstagram className="icone-rede" />
+      Instagram Jesus na Web
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/alianorafael-ti-004751397/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaLinkedin className="icone-rede" />
+      LinkedIn
+    </a>
+
+    <a
+      href="https://wa.me/5511964545706"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FaWhatsapp className="icone-rede" />
+      WhatsApp
+    </a>
+
+    <a href="mailto:portifolio@aliano.com.br">
+      <FaEnvelope className="icone-rede" />
+      Email
+    </a>
+
+  </div>
+
+</div>
 
       <p><strong>O Prólogo: Um Amor que Começa Antes do Tempo</strong></p>
       <p>
