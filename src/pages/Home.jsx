@@ -28,11 +28,10 @@ export default function Home() {
 
       <section className="secao">
         <h2>Mensagens e Estudos</h2>
-
-        <div className="cards">
+      <div className="cards-estudos">
           <Card 
             titulo="Série Compositores da Harpa Cristã" 
-            texto="Novas biografias quinzenais em ordem cronológica. Conheça as histórias por traz do louvores!" 
+            texto="Biografias da Harpa Cristã." 
             link="/compositores/intro" 
             imagem={compositores} 
           />
@@ -84,7 +83,7 @@ export default function Home() {
       <section className="secao">
         <h2>Vida Cristã</h2>
 
-        <div className="cards">
+        <div className="cards-vida">
           <Card titulo="Jesus" texto="Conheça mais sobre Jesus" link="/estudos" imagem={jesusrd}/>
           <Card titulo="Livros Cristãos" texto="Indicações de leitura" link="/estudos" imagem={livro}/>
           <Card titulo="Filmes Cristãos" texto="Filmes edificantes" link="/estudos" imagem={filme}/>
