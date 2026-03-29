@@ -16,6 +16,7 @@ import Moravia from "./pages/Moravia";
 import Apologetica from "./pages/Apologetica";
 import Espirito from "./pages/Espirito";
 import Missoes from "./pages/Missoes";
+import ReducaoDanos from "./pages/ReducaoDanos.jsx";
 
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
           <Route path="/historia/moravia" element={<Moravia />} />
           <Route path="/apologetica" element={<Apologetica />} />
           <Route path="/espirito" element={<Espirito />} />
-           <Route path="/missoes" element={<Missoes />} />
+          <Route path="/missoes" element={<Missoes />} />
+          <Route path="/reducao-danos" element={<ReducaoDanos />} />
           
         </Routes>
       </Layout>

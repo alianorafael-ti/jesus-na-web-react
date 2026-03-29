@@ -84,7 +84,7 @@ export default function Home() {
         <h2>Vida Cristã</h2>
 
         <div className="cards-vida">
-          <Card titulo="Jesus" texto="Conheça mais sobre Jesus" link="/estudos" imagem={jesusrd}/>
+          <Card titulo="Vida em Foco" texto="Espritualidade aplicada aos desafios do nosso dia a dia." link="/reducao-danos" imagem={jesusrd}/>
           <Card titulo="Livros Cristãos" texto="Indicações de leitura" link="/estudos" imagem={livro}/>
           <Card titulo="Filmes Cristãos" texto="Filmes edificantes" link="/estudos" imagem={filme}/>
         </div>
