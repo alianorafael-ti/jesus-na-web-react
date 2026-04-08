@@ -1,5 +1,6 @@
 import LayoutEstudo from "../components/LayoutEstudo";
 import "../styles/Estudos.css";
+import { Link } from "react-router-dom";
 
 export default function Espirito() {
   return (
@@ -86,7 +87,10 @@ export default function Espirito() {
             <h4>Estudo 1</h4>
             <p>O que significa andar no Espírito?</p>
             <p><strong>Gálatas 5:16–25</strong></p>
-            <button>Ler estudo</button>
+
+            <Link to="/espirito/andando-espirito-1" className="botao-estudo">
+              Ler estudo
+            </Link>
           </div>
 
           <div className="card">

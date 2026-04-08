@@ -17,6 +17,9 @@ import Apologetica from "./pages/Apologetica";
 import Espirito from "./pages/Espirito";
 import Missoes from "./pages/Missoes";
 import ReducaoDanos from "./pages/ReducaoDanos.jsx";
+import LivrosCristaos from "./pages/LivrosCristaos";
+import FilmesCristaos from "./pages/FilmesCristaos";
+import AndandoEspirito1 from "./pages/AndandoEspirito1";
 
 
 function App() {
@@ -37,8 +40,11 @@ function App() {
           <Route path="/historia/moravia" element={<Moravia />} />
           <Route path="/apologetica" element={<Apologetica />} />
           <Route path="/espirito" element={<Espirito />} />
+          <Route path="/espirito/andando-espirito-1" element={<AndandoEspirito1 />} />
           <Route path="/missoes" element={<Missoes />} />
           <Route path="/reducao-danos" element={<ReducaoDanos />} />
+          <Route path="/livros-cristaos" element={<LivrosCristaos />} />
+          <Route path="/filmes-cristaos" element={<FilmesCristaos />} />
           
         </Routes>
       </Layout>

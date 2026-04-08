@@ -225,4 +225,19 @@ body {
     text-align: center;
   }
 
+} 
+
+.cards {
+  display: flex;
+  gap: 20px;           /* espaço entre os cards */
+  flex-wrap: wrap;     /* quebra linha em telas menores */
+  justify-content: flex-start;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }

@@ -1,9 +1,20 @@
 import React from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 
 function LayoutEstudo({ titulo, children }) {
 
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const voltar = () => {
-    window.history.back();
+    // pega de onde o usuário veio
+    const origem = location.state?.from;
+
+    if (origem) {
+      navigate(origem, { replace: true });
+    } else {
+      navigate("/", { replace: true }); // fallback (home)
+    }
   };
 
   const compartilhar = () => {
