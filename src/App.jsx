@@ -20,6 +20,7 @@ import ReducaoDanos from "./pages/ReducaoDanos.jsx";
 import LivrosCristaos from "./pages/LivrosCristaos";
 import FilmesCristaos from "./pages/FilmesCristaos";
 import AndandoEspirito1 from "./pages/AndandoEspirito1";
+import Obrigado from "./pages/Obrigado";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path="/reducao-danos" element={<ReducaoDanos />} />
           <Route path="/livros-cristaos" element={<LivrosCristaos />} />
           <Route path="/filmes-cristaos" element={<FilmesCristaos />} />
+          <Route path="/obrigado" element={<Obrigado />} />
           
         </Routes>
       </Layout>

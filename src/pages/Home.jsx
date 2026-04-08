@@ -21,8 +21,11 @@ export default function Home() {
       <section className="hero">
         <h1>Jesus na Web</h1>
         <p>
-          Levando a Palavra de Deus através da internet.
-          Estudos bíblicos e crescimento espiritual.
+          Jesus na Web
+
+Levando o Evangelho às nações através da internet.
+
+Estudos bíblicos, crescimento espiritual e um encontro real com Deus.
         </p>
       </section>
 
