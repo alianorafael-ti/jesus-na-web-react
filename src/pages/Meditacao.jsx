@@ -3,100 +3,124 @@ import "../styles/Estudos.css";
 
 function Meditacao() {
   return (
-    <LayoutEstudo titulo="Ele Escolheu a Cruz">
+    <LayoutEstudo titulo="O Dia em que Deus Me Serviu">
 
-      <h2>A História da Paixão, Morte e Ressurreição de Jesus</h2>
+      <h2>Uma experiência com Jesus na multiplicação dos pães</h2>
 
       <section>
-        <h3>O Peso do Getsêmani</h3>
+        <h3>A Fome que Ia Além do Corpo</h3>
         <p>
-          A noite estava pesada. Um silêncio estranho pairava sobre Jerusalém,
-          como se toda a criação prendesse o fôlego. No Getsêmani, entre oliveiras
-          antigas que testemunharam séculos de história, Jesus se ajoelha. A lua
-          ilumina Seu rosto abatido. Ele sabe: a hora chegou.
+          Eu ainda lembro daquele dia como se ele ainda estivesse acontecendo diante dos meus olhos.
+          Eu havia saído cedo de casa, com o coração apertado e o estômago mais vazio ainda.
+          Não era só fome de comida… era uma fome antiga, que parecia morar dentro de mim.
+          Fome de esperança. Fome de respostas. Fome de algo que desse sentido àquela vida dura,
+          cheia de impostos, doenças e medo.
         </p>
 
         <p>
-          Ali, sozinho, Ele carrega um peso que nenhum ser humano jamais poderia
-          suportar. O suor se torna em gotas de sangue. Não é medo… é a consciência
-          perfeita do cálice que beberia. Ele, o Santo, prestes a carregar o pecado
-          de um mundo inteiro.
-        </p>
-
-        <p>Jesus olha para o céu:</p>
-
-        <blockquote>
-          “Pai… se possível, passa de mim este cálice.”
-        </blockquote>
-
-        <p>E então completa:</p>
-
-        <blockquote>
-          “Todavia, não seja como eu quero, mas como Tu queres.”
-        </blockquote>
-
-        <p>
-          O destino da humanidade é selado nessa frase.
+          Quando ouvi que Jesus estava naquela região, eu fui. Não fui sozinho. Muita gente foi.
+          Famílias inteiras, doentes carregados nos braços, curiosos, desesperados…
+          todos com alguma necessidade escondida no peito.
         </p>
       </section>
 
       <section>
-        <h3>A Prisão e a Humilhação</h3>
+        <h3>Quando Ele Falava, Tudo se Aquietava</h3>
         <p>
-          O som de passos interrompe o silêncio. Tochas se aproximam. Judas surge
-          à frente dos soldados. O beijo frio do traidor marca o início da prisão
-          mais injusta da história. Jesus não resiste. Ele não foge. Ele se entrega
-          — porque esta sempre foi Sua missão.
+          Quando o vi pela primeira vez, algo em mim se aquietou. Ele não tinha aparência de rei,
+          mas havia autoridade em sua presença. Não era como os fariseus, que falavam pesado e distante.
+          Ele falava como se conhecesse cada pensamento nosso antes mesmo de abrirmos a boca. E conhecia.
         </p>
 
         <p>
-          A noite vira madrugada; a madrugada vira dor. Jesus é arrastado diante
-          de autoridades, falsamente acusado, humilhado, espancado. Cada chicotada
-          abre feridas profundas. Cada zombaria ecoa contra Aquele que formou os
-          mundos com Sua palavra.
+          Ele subiu um pequeno monte e começou a ensinar. Eu me lembro de ter me esquecido da fome
+          por alguns momentos. Suas palavras eram como água em terra seca. Falava do Reino de Deus,
+          de misericórdia, de perdão… mas também havia firmeza.
         </p>
 
-        <p>Mas Ele permanece calado.</p>
-      </section>
-
-      <section>
-        <h3>Na Cruz: "Está Consumado"</h3>
         <p>
-          A coroa de espinhos perfura Sua carne. E, por fim, a cruz é levantada.
-          Lá, suspenso entre o céu e a terra, Jesus carrega não apenas madeira e
-          pregos: Ele carrega o pecado de todos.
-        </p>
-
-        <p>Com um último fôlego, Ele proclama:</p>
-
-        <blockquote>“Está consumado.”</blockquote>
-
-        <p>
-          O véu do templo se rasga. O caminho é aberto.
+          Alguns ao meu lado choravam em silêncio. Outros questionavam, tentando entender se aquilo
+          era possível. Havia incredulidade no ar… e, ao mesmo tempo, uma fé que crescia sem explicação.
         </p>
       </section>
 
       <section>
-        <h3>👑 O Triunfo: Ressurreição</h3>
+        <h3>O Pouco nas Mãos Dele</h3>
         <p>
-          A morte tenta prendê-Lo. O inferno observa em silêncio, acreditando que
-          finalmente venceu. Mas Jesus não entra ali como um derrotado — entra como Rei.
+          O tempo passou sem que percebêssemos. Quando o dia começou a cair, a realidade voltou como um peso:
+          estávamos longe das aldeias, e não havia comida suficiente. Eu ouvi os discípulos dizendo para ele
+          despedir a multidão.
         </p>
 
         <p>
-          A luz invade as trevas. Portas antigas estremecem. Ele toma as chaves da
-          morte e do inferno. A antiga prisão espiritual não tem mais autoridade.
+          Mas Ele não parecia preocupado como nós. Ele olhou para nós… e perguntou algo que até hoje ecoa
+          na minha mente: “O que vocês têm?”
         </p>
 
         <p>
-          O terceiro dia chega. A pedra não é movida por mãos humanas. Um terremoto
-          anuncia ao universo que algo impossível aconteceu. O corpo morto respira.
-          Os olhos se abrem. O Senhor se levanta — vivo, eterno, glorioso. Ele venceu.
+          Era pouco demais. Ridiculamente pouco. Cinco pães. Dois peixes. Aquilo não era nada diante de tanta gente.
+          Mas Ele pediu.
+        </p>
+      </section>
+
+      <section>
+        <h3>O Milagre Acontece</h3>
+        <p>
+          E algo aconteceu naquele momento que eu não consigo explicar completamente. Ele tomou aquilo nas mãos.
+          Levantou os olhos ao céu. Agradeceu.
+        </p>
+
+        <p>
+          Não houve explosão. Não houve espetáculo. Foi simples. Tranquilo. Mas impossível.
+        </p>
+
+        <p>
+          Os discípulos começaram a distribuir. Eu lembro da mão que recebia pão… e logo havia mais pão.
+          Eu lembro de ver crianças com olhos arregalados, rindo enquanto comiam.
+          Homens endurecidos chorando. Mães alimentando seus filhos sem acreditar no que viam.
+        </p>
+
+        <p>
+          Eu comi até não conseguir mais. E ainda assim sobrou.
+        </p>
+      </section>
+
+      <section>
+        <h3>Quando o Céu Toca a Terra</h3>
+        <p>
+          Sobraram cestos cheios. Mais do que começamos. Eu me lembro de olhar ao redor e ver a multidão
+          em silêncio agora… não de fome, mas de espanto.
+        </p>
+
+        <p>
+          Era como se todos tivéssemos entendido, ao mesmo tempo, que não estávamos apenas diante de um
+          homem sábio. Estávamos diante de algo… alguém… maior.
+        </p>
+
+        <p>
+          Havia quem ainda duvidasse. Mas outros… outros apenas se curvaram por dentro.
+          Não com o corpo, mas com o coração.
+        </p>
+
+        <p>
+          Eu fui um deles.
+        </p>
+      </section>
+
+      <section>
+        <h3>🍞 A Fome que Foi Saciada</h3>
+        <p>
+          Naquele dia, eu não apenas comi pão. Eu vi o impossível sendo partido em pedaços e entregue com amor.
+        </p>
+
+        <p>
+          E pela primeira vez, eu entendi: quando Ele está no meio da multidão,
+          até o pouco se torna suficiente — e a fome mais profunda finalmente encontra resposta.
         </p>
       </section>
 
       <p className="nota">
-        Texto de reflexão sobre a narrativa bíblica da Paixão de Cristo.
+        Texto de reflexão sobre a multiplicação dos pães e peixes. Mt 14:13-21; Mc 6:30-44; Lc 9:10-17; Jo 6:1-15. 
       </p>
 
     </LayoutEstudo>
