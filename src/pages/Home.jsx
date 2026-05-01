@@ -10,7 +10,7 @@ import espirito from "../assets/espirito-santo.webp";
 import missoes from "../assets/missoes.webp";
 import aliano from "../assets/aliano.png"; // Quem somos
 
-import jesusrd from "../assets/jesus-rd.png";
+import jesusrd from "../assets/liberto-por-cristo.png";
 import livro from "../assets/livro1.png";
 import filme from "../assets/filme1.png";
 
